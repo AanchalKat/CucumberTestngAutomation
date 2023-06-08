@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="testRun.TestRunner" time="53.52" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Student\Documents\1st_CucTestng_Final\com.ibm.may.batch2.CucumberTestNG\target\test-classes;C:\Users\Student\Documents\1st_CucTestng_Final\com.ibm.may.batch2.CucumberTestNG\target\classes;C:\Users\Student\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\Student\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\Student\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-testng\6.1.1\cucumber-testng-6.1.1.jar;C:\Users\Student\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Student\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Student\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Student\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Student\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Student\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Student\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Student\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Student\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Student\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Student\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Student\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Student\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Student\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Student\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Student\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Student\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Student\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Student\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Student\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Student\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Student\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Student\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Student\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Student\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Student\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Student\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Student\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Student\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Student\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Student\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Student\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Student\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Student\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Student\AppData\Local\Temp\surefire1413361641118717397\surefirebooter1682069114146950691.jar C:\Users\Student\AppData\Local\Temp\surefire1413361641118717397 2023-06-07T23-59-11_467-jvmRun1 surefire7394448601652768379tmp surefire_05075486087145185890tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Student\Documents\1st_CucTestng_Final\com.ibm.may.batch2.CucumberTestNG\target\test-classes;C:\Users\Student\Documents\1st_CucTestng_Final\com.ibm.may.batch2.CucumberTestNG\target\classes;C:\Users\Student\.m2\repository\io\cucumber\cucumber-java\6.1.1\cucumber-java-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-core\6.1.1\cucumber-core-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-gherkin\6.1.1\cucumber-gherkin-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.1.1\cucumber-gherkin-messages-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\Student\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-plugin\6.1.1\cucumber-plugin-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\docstring\6.1.1\docstring-6.1.1.jar;C:\Users\Student\.m2\repository\io\cucumber\html-formatter\6.0.3\html-formatter-6.0.3.jar;C:\Users\Student\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Student\.m2\repository\io\cucumber\cucumber-testng\6.1.1\cucumber-testng-6.1.1.jar;C:\Users\Student\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Student\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Student\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Student\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Student\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Student\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Student\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Student\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Student\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Student\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Student\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Student\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Student\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Student\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Student\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Student\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Student\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Student\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\Student\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Student\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Student\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Student\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Student\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Student\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Student\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Student\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Student\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Student\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Student\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Student\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Student\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Student\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Student\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Student\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Student\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Student\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Student"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre"/>
+    <property name="basedir" value="C:\Users\Student\Documents\1st_CucTestng_Final\com.ibm.may.batch2.CucumberTestNG"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Student\AppData\Local\Temp\surefire1413361641118717397\surefirebooter1682069114146950691.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_333-b02"/>
+    <property name="user.name" value="Student"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Student\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Student\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_333"/>
+    <property name="user.dir" value="C:\Users\Student\Documents\1st_CucTestng_Final\com.ibm.may.batch2.CucumberTestNG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files\nodejs\;C:\Users\Student\Desktop\Software\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Users\Student\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Student\AppData\Local\Programs\Python\Python311\;C:\Users\Student\AppData\Local\Microsoft\WindowsApps;C:\Users\Student\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Student\AppData\Roaming\npm;C:\Users\Student\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.333-b02"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario" classname="testRun.TestRunner" time="10.253">
+    <failure message="session not created&#10;from no such execution context: uniqueContextId not found&#10;  (Session info: chrome=114.0.5735.110)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QNHJ5Q7&apos;, ip: &apos;10.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x008BA813+48355]&#10;	(No symbol) [0x0084C4B1]&#10;	(No symbol) [0x00755358]&#10;	(No symbol) [0x007489B0]&#10;	(No symbol) [0x00747138]&#10;	(No symbol) [0x007477AA]&#10;	(No symbol) [0x00758417]&#10;	(No symbol) [0x007599E1]&#10;	(No symbol) [0x00759A80]&#10;	(No symbol) [0x007A1F1B]&#10;	(No symbol) [0x007A093C]&#10;	(No symbol) [0x0079A536]&#10;	(No symbol) [0x007782DC]&#10;	(No symbol) [0x007793DD]&#10;	GetHandleVerifier [0x00B1AABD+2539405]&#10;	GetHandleVerifier [0x00B5A78F+2800735]&#10;	GetHandleVerifier [0x00B5456C+2775612]&#10;	GetHandleVerifier [0x009451E0+616112]&#10;	(No symbol) [0x00855F8C]&#10;	(No symbol) [0x00852328]&#10;	(No symbol) [0x0085240B]&#10;	(No symbol) [0x00844FF7]&#10;	BaseThreadInitThunk [0x770100C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77167B4E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77167B1E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QNHJ5Q7', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x007489B0]
+	(No symbol) [0x00747138]
+	(No symbol) [0x007477AA]
+	(No symbol) [0x00758417]
+	(No symbol) [0x007599E1]
+	(No symbol) [0x00759A80]
+	(No symbol) [0x007A1F1B]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x770100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B1E+238]
+
+</failure>
+    <system-out><![CDATA[
+@regression
+Scenario: Search Customer by Name                                        # Features/Customers1.feature:44
+
+@sanity @regression
+Scenario: Add new Customer                                                                # Features/Customers1.feature:5
+
+@regression
+Scenario: Search Customer by EMailID                                     # Features/Customers1.feature:26
+ INFO [TestNG-PoolService-0] (Stepdef.java:55)- ScnearioName: Add new Customer
+ INFO [TestNG-PoolService-1] (Stepdef.java:55)- ScnearioName: Search Customer by EMailID
+ INFO [TestNG-PoolService-2] (Stepdef.java:55)- ScnearioName: Search Customer by Name
+====================executeBeforeEachLine=====================
+ INFO [TestNG-PoolService-0] (Stepdef.java:96)- ************* Launching Browser *****************
+  Given User Launch Chrome browser                                                        # stepDef.Stepdef.user_Launch_Chrome_browser()
+====================executeBeforeEachLine=====================
+ INFO [TestNG-PoolService-0] (Stepdef.java:110)- ************* Opening URL  *****************
+  When User opens URL "http://admin-demo.nopcommerce.com/login"                           # stepDef.Stepdef.user_opens_URL(java.lang.String)
+====================executeBeforeEachLine=====================
+ INFO [TestNG-PoolService-0] (Stepdef.java:117)- ************* Prvding user and password *****************
+ INFO [TestNG-PoolService-0] (Stepdef.java:118)- ************* user details: *****************admin@yourstore.com : admin
+      org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: uniqueContextId not found
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QNHJ5Q7', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x007489B0]
+	(No symbol) [0x00747138]
+	(No symbol) [0x007477AA]
+	(No symbol) [0x00758417]
+	(No symbol) [0x007599E1]
+	(No symbol) [0x00759A80]
+	(No symbol) [0x007A1F1B]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x770100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B1E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDef.Stepdef.setup(Stepdef.java:73)
+
+  Given User Launch Chrome browser                                       # stepDef.Stepdef.user_Launch_Chrome_browser()
+  When User opens URL "http://admin-demo.nopcommerce.com/login"          # stepDef.Stepdef.user_opens_URL(java.lang.String)
+  And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDef.Stepdef.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                     # stepDef.Stepdef.click_on_Login()
+  Then User can view Dashboad                                            # stepDef.Stepdef.user_can_view_Dashboad()
+  When User click on customers Menu                                      # stepDef.Stepdef.user_click_on_customers_Menu()
+  And click on customers Menu Item                                       # stepDef.Stepdef.click_on_customers_Menu_Item()
+  And Enter customer EMail                                               # stepDef.Stepdef.enter_customer_EMail()
+  When Click on search button                                            # stepDef.Stepdef.click_on_search_button()
+  Then User should found Email in the Search table                       # stepDef.Stepdef.user_should_found_Email_in_the_Search_table()
+  And close browser                                                      # stepDef.Stepdef.close_browser()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 32980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 10331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 5568
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 07, 2023 11:59:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="testRun.TestRunner" time="10.65">
+    <failure message="session not created&#10;from no such execution context: loader has changed while resolving nodes&#10;  (Session info: chrome=114.0.5735.110)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QNHJ5Q7&apos;, ip: &apos;10.0.0.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x008BA813+48355]&#10;	(No symbol) [0x0084C4B1]&#10;	(No symbol) [0x00755358]&#10;	(No symbol) [0x00757D86]&#10;	(No symbol) [0x007599E1]&#10;	(No symbol) [0x00759A80]&#10;	(No symbol) [0x007A1F1B]&#10;	(No symbol) [0x007A093C]&#10;	(No symbol) [0x0079A536]&#10;	(No symbol) [0x007782DC]&#10;	(No symbol) [0x007793DD]&#10;	GetHandleVerifier [0x00B1AABD+2539405]&#10;	GetHandleVerifier [0x00B5A78F+2800735]&#10;	GetHandleVerifier [0x00B5456C+2775612]&#10;	GetHandleVerifier [0x009451E0+616112]&#10;	(No symbol) [0x00855F8C]&#10;	(No symbol) [0x00852328]&#10;	(No symbol) [0x0085240B]&#10;	(No symbol) [0x00844FF7]&#10;	BaseThreadInitThunk [0x770100C9+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77167B4E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x77167B1E+238]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QNHJ5Q7', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x00757D86]
+	(No symbol) [0x007599E1]
+	(No symbol) [0x00759A80]
+	(No symbol) [0x007A1F1B]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x770100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B1E+238]
+
+</failure>
+    <system-out><![CDATA[ INFO [TestNG-PoolService-0] (Stepdef.java:135)- ************* entered user and password on application $$$$*****************
+  And User enters Email as "admin@yourstore.com" and Password as "admin"                  # stepDef.Stepdef.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)
+====================executeBeforeEachLine=====================
+ INFO [TestNG-PoolService-0] (Stepdef.java:148)- ************* click on login *****************
+      org.openqa.selenium.SessionNotCreatedException: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QNHJ5Q7', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x008BA813+48355]
+	(No symbol) [0x0084C4B1]
+	(No symbol) [0x00755358]
+	(No symbol) [0x00757D86]
+	(No symbol) [0x007599E1]
+	(No symbol) [0x00759A80]
+	(No symbol) [0x007A1F1B]
+	(No symbol) [0x007A093C]
+	(No symbol) [0x0079A536]
+	(No symbol) [0x007782DC]
+	(No symbol) [0x007793DD]
+	GetHandleVerifier [0x00B1AABD+2539405]
+	GetHandleVerifier [0x00B5A78F+2800735]
+	GetHandleVerifier [0x00B5456C+2775612]
+	GetHandleVerifier [0x009451E0+616112]
+	(No symbol) [0x00855F8C]
+	(No symbol) [0x00852328]
+	(No symbol) [0x0085240B]
+	(No symbol) [0x00844FF7]
+	BaseThreadInitThunk [0x770100C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77167B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B1E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDef.Stepdef.setup(Stepdef.java:73)
+
+  Given User Launch Chrome browser                                       # stepDef.Stepdef.user_Launch_Chrome_browser()
+  When User opens URL "http://admin-demo.nopcommerce.com/login"          # stepDef.Stepdef.user_opens_URL(java.lang.String)
+  And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDef.Stepdef.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                     # stepDef.Stepdef.click_on_Login()
+  Then User can view Dashboad                                            # stepDef.Stepdef.user_can_view_Dashboad()
+  When User click on customers Menu                                      # stepDef.Stepdef.user_click_on_customers_Menu()
+  And click on customers Menu Item                                       # stepDef.Stepdef.click_on_customers_Menu_Item()
+  And Enter customer FirstName                                           # stepDef.Stepdef.enter_customer_FirstName()
+  And Enter customer LastName                                            # stepDef.Stepdef.enter_customer_LastName()
+  When Click on search button                                            # stepDef.Stepdef.click_on_search_button()
+  Then User should found Name in the Search table                        # stepDef.Stepdef.user_should_found_Name_in_the_Search_table()
+  And close browser                                                      # stepDef.Stepdef.close_browser()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario" classname="testRun.TestRunner" time="51.651"/>
+</testsuite>

@@ -1,0 +1,940 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-08T08:06:43.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5750000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Stepdef.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Add new Customer",
+        "description": "",
+        "id": "customers;add-new-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDef.Stepdef.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1553000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDef.Stepdef.user_opens_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 578000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDef.Stepdef.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3753000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User can view Dashboad",
+            "match": {
+              "location": "stepDef.Stepdef.user_can_view_Dashboad()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4268000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User click on customers Menu",
+            "match": {
+              "location": "stepDef.Stepdef.user_click_on_customers_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5094000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "click on customers Menu Item",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_customers_Menu_Item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6711000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "click on Add new button",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_Add_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User can view Add new customer page",
+            "match": {
+              "location": "stepDef.Stepdef.user_can_view_Add_new_customer_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17480000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "User enter customer info",
+            "match": {
+              "location": "stepDef.Stepdef.user_enter_customer_info()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2671000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "click on Save button",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User can view confirmation message \"The new customer has been added successfully.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The new customer has been added successfully.\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDef.Stepdef.user_can_view_confirmation_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 747000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "close browser",
+            "match": {
+              "location": "stepDef.Stepdef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-08T08:06:43.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5025000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Stepdef.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Search Customer by EMailID",
+        "description": "",
+        "id": "customers;search-customer-by-emailid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDef.Stepdef.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom no such window\n  (Session info: chrome\u003d114.0.5735.110)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-QNHJ5Q7\u0027, ip: \u002710.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\Student\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 05f672d8a33e7827ed10dcf28ff91f87\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat stepDef.Stepdef.user_opens_URL(Stepdef.java:111)\r\n\tat ✽.User opens URL \"http://admin-demo.nopcommerce.com/login\"(file:///C:/Users/Student/Documents/1st_CucTestng_Final/com.ibm.may.batch2.CucumberTestNG/./Features/Customers1.feature:28)\r\n",
+              "duration": 135000000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDef.Stepdef.user_opens_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDef.Stepdef.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "User can view Dashboad",
+            "match": {
+              "location": "stepDef.Stepdef.user_can_view_Dashboad()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "User click on customers Menu",
+            "match": {
+              "location": "stepDef.Stepdef.user_click_on_customers_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "click on customers Menu Item",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_customers_Menu_Item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "Enter customer EMail",
+            "match": {
+              "location": "stepDef.Stepdef.enter_customer_EMail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "User should found Email in the Search table",
+            "match": {
+              "location": "stepDef.Stepdef.user_should_found_Email_in_the_Search_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "close browser",
+            "match": {
+              "location": "stepDef.Stepdef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-08T08:06:43.673Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5769000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Stepdef.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Search Customer by Name",
+        "description": "",
+        "id": "customers;search-customer-by-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "User Launch Chrome browser",
+            "match": {
+              "location": "stepDef.Stepdef.user_Launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1670000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "User opens URL \"http://admin-demo.nopcommerce.com/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://admin-demo.nopcommerce.com/login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDef.Stepdef.user_opens_URL(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 5000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 47,
+            "name": "User enters Email as \"admin@yourstore.com\" and Password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@yourstore.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDef.Stepdef.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3465000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "Click on Login",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "User can view Dashboad",
+            "match": {
+              "location": "stepDef.Stepdef.user_can_view_Dashboad()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4183000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 50,
+            "name": "User click on customers Menu",
+            "match": {
+              "location": "stepDef.Stepdef.user_click_on_customers_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5148000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "click on customers Menu Item",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_customers_Menu_Item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "Enter customer FirstName",
+            "match": {
+              "location": "stepDef.Stepdef.enter_customer_FirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "Enter customer LastName",
+            "match": {
+              "location": "stepDef.Stepdef.enter_customer_LastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4011000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "Click on search button",
+            "match": {
+              "location": "stepDef.Stepdef.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 56,
+            "name": "User should found Name in the Search table",
+            "match": {
+              "location": "stepDef.Stepdef.user_should_found_Name_in_the_Search_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 990000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDef.Stepdef.executeBeforeEachLine()"
+                }
+              }
+            ],
+            "line": 57,
+            "name": "close browser",
+            "match": {
+              "location": "stepDef.Stepdef.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Customers",
+    "description": "",
+    "id": "customers",
+    "keyword": "Feature",
+    "uri": "file:Features/Customers1.feature",
+    "tags": []
+  }
+]

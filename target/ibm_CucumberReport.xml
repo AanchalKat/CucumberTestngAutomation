@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="49.128">
+<testcase classname="Customers" name="Add new Customer" time="48.856">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then User can view Dashboad.................................................passed
+When User click on customers Menu...........................................passed
+And click on customers Menu Item............................................passed
+And click on Add new button.................................................passed
+Then User can view Add new customer page....................................passed
+When User enter customer info...............................................passed
+And click on Save button....................................................passed
+Then User can view confirmation message "The new customer has been added successfully.".passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Customers" name="Search Customer by EMailID" time="5.334">
+<failure message="unknown error: cannot determine loading status&#10;from no such window&#10;  (Session info: chrome=114.0.5735.110)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-QNHJ5Q7', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Student\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 05f672d8a33e7827ed10dcf28ff91f87" type="org.openqa.selenium.WebDriverException"><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............failed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......skipped
+And Click on Login..........................................................skipped
+Then User can view Dashboad.................................................skipped
+When User click on customers Menu...........................................skipped
+And click on customers Menu Item............................................skipped
+And Enter customer EMail....................................................skipped
+When Click on search button.................................................skipped
+Then User should found Email in the Search table............................skipped
+And close browser...........................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=114.0.5735.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QNHJ5Q7', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Student\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05f672d8a33e7827ed10dcf28ff91f87
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at stepDef.Stepdef.user_opens_URL(Stepdef.java:111)
+	at ✽.User opens URL "http://admin-demo.nopcommerce.com/login"(file:///C:/Users/Student/Documents/1st_CucTestng_Final/com.ibm.may.batch2.CucumberTestNG/./Features/Customers1.feature:28)
+]]></failure>
+</testcase>
+<testcase classname="Customers" name="Search Customer by Name" time="26.719">
+<system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then User can view Dashboad.................................................passed
+When User click on customers Menu...........................................passed
+And click on customers Menu Item............................................passed
+And Enter customer FirstName................................................passed
+And Enter customer LastName.................................................passed
+When Click on search button.................................................passed
+Then User should found Name in the Search table.............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
